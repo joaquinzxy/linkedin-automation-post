@@ -226,12 +226,15 @@ JavaScript error: resource://devtools/server/actors/network-monitor/network-even
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/148o6h04ap13282eiwvzgkqw2 without a browsingContextID set
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/ea3veem29aea2vulkggtkk7qf without a browsingContextID set
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/ea3veem29aea2vulkggtkk7qf without a browsingContextID set
-1643584168380	geckodriver	INFO	Listening on 127.0.0.1:50609
-1643584171488	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50610" "-no-remote" "-profile" "C:\\Users\\joaqu\\AppData\\Local\\Temp\\rust_mozprofile2T9bdg"
-1643584172075	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\joaqu\\AppData\\Local\\Temp\\rust_mozprofile2T9bdg\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:50610/devtools/browser/a8f30952-b95e-4b5b-8f68-11b8a3c1f72a
-1643584176487	Marionette	INFO	Listening on port 50616
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1643585815705	Marionette	INFO	Stopped listening on port 50396
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+Listening on port 50616
 1643584176827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -251,10 +254,13 @@ JavaScript error: resource://devtools/server/actors/network-monitor/network-even
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/148o6h04ap13282eiwvzgkqw2 without a browsingContextID set
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/ea3veem29aea2vulkggtkk7qf without a browsingContextID set
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/ea3veem29aea2vulkggtkk7qf without a browsingContextID set
-1643584335208	geckodriver	INFO	Listening on 127.0.0.1:50870
-1643584338294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50871" "-no-remote" "-profile" "C:\\Users\\joaqu\\AppData\\Local\\Temp\\rust_mozprofiledL0VB6"
-1643584338916	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\joaqu\\AppData\\Local\\Temp\\rust_mozprofiledL0VB6\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1643585815325	Marionette	INFO	Stopped listening on port 50616
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+ld not open the file at C:\\Users\\joaqu\\AppData\\Local\\Temp\\rust_mozprofiledL0VB6\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:50871/devtools/browser/c8eea600-0ca6-4317-90c4-2fe93f98470b
 1643584343258	Marionette	INFO	Listening on port 50877
 1643584343648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -276,8 +282,9 @@ JavaScript error: resource://devtools/server/actors/network-monitor/network-even
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/148o6h04ap13282eiwvzgkqw2 without a browsingContextID set
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/ea3veem29aea2vulkggtkk7qf without a browsingContextID set
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/ea3veem29aea2vulkggtkk7qf without a browsingContextID set
-1643584452262	geckodriver	INFO	Listening on 127.0.0.1:51090
-1643584455357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51091" "-no-remote" "-profile" "C:\\Users\\joaqu\\AppData\\Local\\Temp\\rust_mozprofileQB2Bkk"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1643585815084	Marionette	INFO	Stopped listening on port 50877
+e-debugging-port" "51091" "-no-remote" "-profile" "C:\\Users\\joaqu\\AppData\\Local\\Temp\\rust_mozprofileQB2Bkk"
 1643584456342	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\joaqu\\AppData\\Local\\Temp\\rust_mozprofileQB2Bkk\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:51091/devtools/browser/249bd799-5b14-4d8f-8d72-59caefd2d0da
@@ -358,3 +365,34 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/7clzbehzzyw6570aweh9woz1z
 JavaScript warning: https://static-exp1.licdn.com/sc/h/9ayzrnals5864b29t4duc7jre, line 39: unreachable code after return statement
 JavaScript warning: https://static-exp1.licdn.com/sc/h/6roclj1wfytlkuygl4hyy7t8g, line 6: unreachable code after return statement
 [Child 8952, MediaDecoderStateMachine #1] WARNING: 1a2651949e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1643585816614	Marionette	INFO	Stopped listening on port 59982
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
