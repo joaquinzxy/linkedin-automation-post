@@ -1,0 +1,11 @@
+✨ Hola! Quería compartirles un proyecto en el cual estuve trabajando a modo de práctica para mantener los conocimientos frescos.
+
+🔠 Es un clon del juego WORDLE, en el cual se debe adivinar una palabra de 5 letras, teniendo 6 oportunidades. Cada letra ingresada retornará información útil con respecto a la posición de la letra en la palabra.
+
+🖥 El juego fue desarrollado en HTML+CSS+JAVASCRIPT. 
+
+🕹 Link del juego: https://joaquinzxy.github.io/wordler-game/
+
+🗃 Link del repositorio: https://github.com/joaquinzxy/wordler-game
+
+#javascript #css #html #oportunidades #proyecto #junior
