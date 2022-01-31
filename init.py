@@ -1,3 +1,4 @@
+from cgitb import text
 import sys
 from time import sleep
 from selenium import webdriver
@@ -23,13 +24,13 @@ def login(email, password, textFile):
     publishBox.click()
 
     postarea = driver.find_element(By.CLASS_NAME, "ql-editor.ql-blank")
-    postarea.send_keys(parseText())
+    postarea.send_keys(parseText(textFile))
     sleep(1)
 
     publishButtonContainer = driver.find_element(By.XPATH, '/html/body/div[3]/div/div/div[2]/div/div/div[2]/div[2]/div[3]')
     publishButtonContainer.find_element(By.TAG_NAME, 'button').click()
 
-def parseText():
+def parseText(textFile):
     with open(textFile, "r", encoding="utf8")as file:
         readline=file.read().splitlines()
         butFirst = readline[0:]
